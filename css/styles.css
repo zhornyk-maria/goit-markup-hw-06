@@ -972,6 +972,12 @@ address {
   }
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .header-container.container {
+    max-width: 100%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
